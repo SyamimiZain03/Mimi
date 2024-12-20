@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wan Nur Syamimi - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ffffff;
+            height: 100%;
+            background: url('image/blues.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 20px;
+            height: 100%;
+        }
+
+        .section-title {
+            font-family: 'Bookman Old Style', serif;
+            text-align: center;
+            font-size: 45px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #ffffff;
+        }
+
+        .media-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 20px;
+            padding: 10px;
+            max-width: 1200px; /* Ensure the container does not stretch too wide */
+            margin: 0 auto; /* Center align the container */
+        }
+
+        .media-box {
+            width: calc(33.33% - 20px); /* Three items per row, with gap included */
+            height: 250px; /* Fixed height */
+            background-color: #e9d8e1;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 3px solid #e622dc;
+            padding: 10px;
+            text-align: center;
+            background: linear-gradient(to bottom right, #669dca, #6d8fcf);
+            animation: popIn 1s ease-out;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .media-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .media-box p {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-size: 14px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .media-box:hover {
+            transform: translateY(-20px); /* Move the image up by 20px */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Pop-in animation */
+        @keyframes popIn {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design for smaller screens */
+        @media (max-width: 768px) {
+            .media-box {
+                width: calc(50% - 20px); /* Two items per row on medium screens */
+                height: 220px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .media-box {
+                width: calc(100% - 20px); /* One item per row on mobile screens */
+                height: 200px;
+            }
+
+            .section-title {
+                font-size: 20px;
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 30px;
+            align-self: center;
+        }
+
+        .btn:hover {
+            background-color: #b4aff7;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <section id="media">
+        <div class="section-title">Gallery</div>
+        <div class="media-container">
+            <div class="media-box">
+                <img src="image/foto1.jpg" alt="Image showing Wan Nur Syamimi at an event" />
+            
+            </div>
+            <div class="media-box">
+                <img src="image/foto2.jpg" alt="Image showing Wan Nur Syamimi with colleagues" />
+               
+            </div>
+            <div class="media-box">
+                <img src="image/foto3.jpg" alt="Image showing Wan Nur Syamimi at a conference" />
+                
+            </div>
+            <div class="media-box">
+                <img src="image/foto4.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+               
+            </div>
+            <div class="media-box">
+                <img src="image/foto5.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+               
+            </div>
+            <div class="media-box">
+                <img src="image/foto6.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+              
+            </div>
+            <div class="media-box">
+                <img src="image/gem1.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+            
+            </div>
+            <div class="media-box">
+                <img src="image/gem2.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+                
+            </div>
+            <div class="media-box">
+                <img src="image/gem3.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+                
+            </div>
+            <div class="media-box">
+                <img src="image/gem4.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+            </div>
+            <div class="media-box">
+                <img src="image/gem5.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+                
+            </div>
+            <div class="media-box">
+                <img src="image/gem6.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+                
+            </div>
+            <div class="media-box">
+                <img src="image/gem7.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+               
+            </div>
+            <div class="media-box">
+                <img src="image/gem8.jpg" alt="Image showing Wan Nur Syamimi during a presentation" />
+               
+            </div>
+        </div>
+    </section>
+
+    <a href="index.html" class="btn">Back to Homepage</a>
+</body>
+</html>
+
+

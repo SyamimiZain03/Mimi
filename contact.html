@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wan Nur Syamimi- Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            background: url('image/light7.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Transition effect for inputs and button */
+        input, textarea, button {
+            transition: all 0.3s ease;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #040608;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+        }
+
+        button:hover {
+            background-color: #020f03;
+        }
+
+        /* Card styling */
+        .card {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #5885AF;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Form styling */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 16px;
+        }
+
+        label {
+            font-weight: bold;
+            color: white;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #6baf4c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        /* Section title styling */
+        .section-title {
+            font-family: 'Bookman Old Style', serif; /* Use Bookman Old Style font */
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px; /* Space between title and content */
+            text-align: center;
+            color: #333;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #436674;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Info Section Hover Styling */
+        .info {
+            margin: 20px 0;
+            background: #697d9b;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 15px;
+            text-align: left;
+            transition: ease-in-out;
+        }
+
+        .info:hover {
+            background-color: #969db3;
+            transform: translateX(5px);
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b4aff7;
+        }
+
+        /* Media Query for responsiveness */
+        @media (max-width: 768px) {
+            .card {
+                padding: 20px;
+            }
+
+            .contact-form {
+                gap: 12px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <div class="section-title">Contact Me</div>
+        <div class="card">
+            <form class="contact-form" action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Type your name" required aria-label="Username input">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Insert your password" required aria-label="Password input">
+    
+                <label for="message">Comment:</label>
+                <textarea id="message" name="message" placeholder="Type your comment" required aria-label="Comment input"></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <a href="index.html" class="btn">Back to Homepage</a>
+
+    <footer>
+        <p>&copy; 2024 HelloMimi | <a href="mailto:syamimizain87@gmail.com">Have a question? Contact me</a></p>
+    </footer>
+</body>
+</html>
+
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wan Nur Syamimi - Resume</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('image/light8.jpg') no-repeat center center fixed;
+            background-size: cover; /* Ensures the background covers the whole page */
+        }
+
+        #experience {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            flex-direction: column; /* Stack the experience title and content vertically */
+        }
+
+        /* Style for the Experience title */
+        .section-title {
+            font-family: 'Bookman Old Style', serif; /* Use Bookman Old Style font */
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px; /* Space between title and content */
+            text-align: center;
+            color: #333;
+        }
+
+        .content-container {
+            max-width: 500px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-family: Sitka Small;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-family: 'Lora', serif;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .intern-images {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .intern-images img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+        }
+
+        /* Hover effects for the images */
+        .intern-images img:hover {
+            transform: scale(1.1); /* Zoom effect */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Shadow effect */
+            border: 3px solid #25b661; /* Green border on hover */
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b4aff7;
+        }
+    </style>
+</head>
+<body>
+    <section id="experience">
+
+        <!-- Experience title placed outside the content container -->
+        <div class="section-title">Experience</div>
+
+        <div class="content-container">
+            <div>
+                <h2>Internship at Unit Rekod Perubatan</h2>
+                <p>
+                    During the final phase of my diploma, I completed a two-month internship as a records staff at Hospital Tanah Merah. I gained hands-on experience in managing and updating patient records, assisting with document retrieval, and learning to use various electronic systems such as SMRP, CPRC, and Phis for efficient record management. 
+                    Additionally, I participated in a mutual cooperation (gotong royong) to dispose of expired patient records, which involved collaboration with fellow staff members to ensure the storage area was cleared and organized.
+                </p>
+            </div>
+        </div>
+
+        <!-- Images outside of the content container -->
+        <div class="intern-images">
+            <img src="image/intern.jpg" alt="Internship Image">
+            <img src="image/foto1.jpg" alt="Internship Image">
+        </div>
+
+    </section>
+    <a href="index.html" class="btn">Back to Homepage</a>
+</body>
+</html>
